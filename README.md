@@ -7,13 +7,12 @@ It consist basically 3 urls
 
 1) http://127.0.0.1:8000/create_user_account/
  
-  we have to provide compulsory two parameter name and age 
-  and third parameter class is optional
-
- for example:
- http://127.0.0.1:8000/create_user_account/?name=krishna&age=24
+  we have to provide compulsory two parameter name, age and third parameter class is optional
+   for example:
+    http://127.0.0.1:8000/create_user_account/?name=krishna&age=24
 
 2) http://127.0.0.1:8000/update_attendance/
+
    we have to provide compulsory one parameter student id
    for example:
        http://127.0.0.1:8000/update_attendance/?student_id=1
